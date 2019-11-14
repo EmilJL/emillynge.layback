@@ -1,0 +1,38 @@
+@import 'abstract/_variables.scss';
+
+// Grid
+@import 'abstract/_grid.scss';
+
+// Your styling
+@import 'base/_theme.scss';
+@import 'base/_typography.scss';
+
+// Layout
+@import 'layout/_buttons.scss';
+@import 'layout/_forms.scss';
+@import 'layout/_table.scss';
+
+// Components
+@import 'components/_header.scss';
+@import 'components/_navigation.scss';
+@import 'components/_footer.scss';
+@import 'components/_lists.scss';
+@import 'components/_sidebar.scss';
+@import 'components/_gutenberg.scss';
+
+// Blocks
+// @import 'blocks/_hero.scss';
+
+// Pages
+@import 'pages/_archive.scss';
+@import 'pages/_search.scss';
+@import 'pages/_blog.scss';
+@import 'pages/_page.scss';
+@import 'pages/_single.scss';
+@import 'pages/_frontpage.scss';
+
+@import 'vendor/_slick.scss';
+@import 'vendor/_cookie-notice.scss';
+
+// Mobile / responsive layout
+@import 'base/_responsive.scss';

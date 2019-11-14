@@ -1,0 +1,28 @@
+#cookie-notice {
+	background-color: $primary !important;
+	
+	.button.wp-default {
+		border: 0;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 45px;
+		color: #fff;
+		background: none;
+		background-color: $primary;
+		transition: .3s ease;
+		text-transform: uppercase;
+		font-family: $headline-font;
+		font-size: 16px;
+		display: block;
+		width: 180px;
+		margin: 10px auto 0px;
+		text-shadow: none;
+
+		&:hover {
+			background: none;
+			background-color: lighten($primary, 10%);
+			color: #fff;
+		}
+	}
+
+}

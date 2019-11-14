@@ -1,0 +1,62 @@
+{
+    "key": "group_5bc4d75b75c2c",
+    "title": "Betalingskort",
+    "fields": [
+        {
+            "key": "field_5bc4d7677511a",
+            "label": "Betalingskort",
+            "name": "payment_cards",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Dankort": "Dankort",
+                "Visa": "Visa",
+                "Visa Electron": "Visa Electron",
+                "Mastercard": "Mastercard",
+                "Maestro": "Maestro",
+                "MobilePay": "MobilePay",
+                "Apple Pay": "Apple Pay",
+                "Google Pay": "Google Pay",
+                "Samsung Pay": "Samsung Pay",
+                "PayPal": "PayPal",
+                "American Express": "American Express",
+                "Diners Club": "Diners Club"
+            },
+            "allow_custom": 0,
+            "default_value": [
+                "Visa",
+                "Mastercard",
+                "Maestro"
+            ],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-layback"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1539626963
+}

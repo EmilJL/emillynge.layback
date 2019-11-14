@@ -1,0 +1,20 @@
+.page-text-content {
+	ul {
+		list-style: none;
+
+		li {
+			position: relative;
+
+			&:before {
+				content: "·";
+				color: $primary;
+				position: absolute;
+				top: 0;
+				left: -25px;
+				line-height: 16px;
+				font-size: 55px;
+				font-family: 'Helvetica', sans-serif;
+			}
+		}
+	}
+}

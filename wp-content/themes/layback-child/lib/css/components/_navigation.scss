@@ -1,0 +1,26 @@
+.site-navigation {
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			a {
+				display: block;
+			}
+		}
+	}
+}
+
+// SCSS each post_type archive to have a active menu item
+
+// $post_singular_name: ;
+
+// @each $singular in $post_singular_name{
+// 	.single-#{$singular}{
+// 		.menu-item-object-#{$singular} {
+// 		    a{
+// 				
+// 			}
+// 		}
+// 	}
+// }

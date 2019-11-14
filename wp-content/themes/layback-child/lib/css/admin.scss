@@ -1,0 +1,13 @@
+@import 'abstract/_variables.scss';
+
+.wp-block{
+	max-width: $fullsize;
+}
+.editor-styles-wrapper{
+	font-family: $body-font !important;
+}
+.editor-post-title__block{
+	.editor-post-title__input{
+		font-family: $headline-font !important;
+	}
+}

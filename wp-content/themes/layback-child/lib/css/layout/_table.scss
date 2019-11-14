@@ -1,0 +1,15 @@
+table{
+	width: 100%;
+	thead,
+	tbody,
+	tfoot{
+		tr{
+			th,
+			td{
+				text-align: left;
+				padding: 5px 15px;
+				border-bottom: 1px solid #e0e0e0;
+			}
+		}
+	}
+}

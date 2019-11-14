@@ -1,0 +1,57 @@
+.btn,
+.btn:link{
+	display: inline-block;
+	position: relative;	
+	margin: 0;
+	outline: 0;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	width: auto;
+	cursor: pointer;
+
+	/*
+	 * 
+	 * These mostly chanegs from theme to theme
+	 *
+	*/
+
+	font-size: $fontsize;
+
+	// color
+	background-color: $primary;
+	border-color: transparent;
+	color: #fff;
+
+	// border
+	border-width: 0;
+
+	// size
+	height: 50px;
+	line-height: 50px;
+	padding: 0 25px;
+	
+	// animation
+	transition: 100ms;
+
+	&:hover{
+		background-color: lighten($primary, 10%);
+		color: #fff;
+	}
+
+	&[disabled="disabled"],
+	&[disabled]{
+		opacity: 0.5;
+		transition: none;
+		cursor: initial;
+
+		&:hover{
+			background-color: $primary;
+		}
+	}
+
+	&.wide{
+		width: 100%;
+	}
+
+}
